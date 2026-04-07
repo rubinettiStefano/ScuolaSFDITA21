@@ -7,6 +7,7 @@ import java.util.ArrayList;
 public class MainPers
 {
     static void main() {
+
 //        Persona p = new Persona("Stefano","Rubinetti");
         Studente s = new Studente("Pippo","Franco",84,4,true);
         Professore p = new Professore("Pippo","Franco",6000,15,"Canto","Francologia");
