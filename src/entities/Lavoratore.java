@@ -29,7 +29,7 @@ public abstract class Lavoratore extends Persona {
     }
 
     private double taxation() {
-        double gross = getAnnualNetSalary();
+        double gross = getAnnualGrossSalary();
         if (gross<28001)
             return gross*0.23;
 

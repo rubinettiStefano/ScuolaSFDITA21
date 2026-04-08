@@ -1,6 +1,8 @@
 package entities;
 
-public class Professore extends Lavoratore
+import interfacce.Csvable;
+
+public class Professore extends Lavoratore implements Csvable
 {
     private String materia;
     private String titoloStudio;
@@ -34,5 +36,10 @@ public class Professore extends Lavoratore
                 "materia='" + materia + '\'' +
                 ", titoloStudio='" + titoloStudio + '\'' +
                 "} " + super.toString();
+    }
+
+    @Override
+    public String toCsv() {
+        return "pro,"+getNome()+","+getCognome()+","+getGrossMonthlySalary()+","+getnMonths()+","+getMateria()+","+getTitoloStudio();
     }
 }
