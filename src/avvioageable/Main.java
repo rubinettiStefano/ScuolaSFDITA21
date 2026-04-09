@@ -13,9 +13,9 @@ public class Main
     static void main()
     {
         List<Person> persone = new ArrayList<>();
-        persone.add(new Person("Mario", "Rossi", 30));
-        persone.add(new Person("Laura", "Bianchi", 25));
-        persone.add(new Person("Giuseppe", "Verdi", 50));
+//        persone.add(new Person("Mario", "Rossi", 30));
+//        persone.add(new Person("Laura", "Bianchi", 25));
+//        persone.add(new Person("Giuseppe", "Verdi", 50));
 
         List<Smartphone> smartphones = new ArrayList<>();
         smartphones.add(new Smartphone("iPhone 15", "Apple", 999.0, 2025));

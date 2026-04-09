@@ -32,12 +32,12 @@ public class Main2
 //        Collections.sort(parole);
 //        System.out.println(parole);
 
-        List<Person> persone = new ArrayList<>();
-        persone.add(new Person("Mario", "Rossi", 30));
-        persone.add(new Person("Laura", "Bianchi", 25));
-        persone.add(new Person("Giuseppe", "Verdi", 50));
-        Collections.sort(persone);
-
-        Console.print(persone);
+//        List<Person> persone = new ArrayList<>();
+//        persone.add(new Person("Mario", "Rossi", 30));
+//        persone.add(new Person("Laura", "Bianchi", 25));
+//        persone.add(new Person("Giuseppe", "Verdi", 50));
+//        Collections.sort(persone);
+//
+//        Console.print(persone);
     }
 }
