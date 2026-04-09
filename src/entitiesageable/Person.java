@@ -2,7 +2,7 @@ package entitiesageable;
 
 import interfacce.Ageable;
 
-public class Person implements Ageable
+public class Person implements Ageable,Comparable<Person>
 {
     public Person(String name, String surname, int age) {
         this.name = name;
@@ -35,5 +35,22 @@ public class Person implements Ageable
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    //restituisce numero negativo se this<o
+    //restituisce 0 se uguali
+    //positivo se this>o
+    public int compareTo(Person o) {
+      return (int)(age-o.getAge());
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
