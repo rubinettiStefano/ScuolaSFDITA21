@@ -37,7 +37,6 @@ public class Person implements Ageable,Comparable<Person>
         this.age = age;
     }
 
-    @Override
     //restituisce numero negativo se this<o
     //restituisce 0 se uguali
     //positivo se this>o
