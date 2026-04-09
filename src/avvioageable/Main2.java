@@ -1,12 +1,5 @@
 package avvioageable;
 
-import entitiesageable.Person;
-import libreria.Console;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 public class Main2
 {
     static void main() {

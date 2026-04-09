@@ -1,7 +1,7 @@
 package avvioageable;
 
 import entitiesageable.House;
-import entitiesageable.Person;
+import entitiesageable.PersonV2;
 import entitiesageable.Smartphone;
 import interfacce.Ageable;
 
@@ -12,7 +12,7 @@ public class Main
 {
     static void main()
     {
-        List<Person> persone = new ArrayList<>();
+        List<PersonV2> persone = new ArrayList<>();
 //        persone.add(new Person("Mario", "Rossi", 30));
 //        persone.add(new Person("Laura", "Bianchi", 25));
 //        persone.add(new Person("Giuseppe", "Verdi", 50));
