@@ -2,6 +2,10 @@ package entitiesageable;
 
 import interfacce.Ageable;
 
+//Cambiare in persona age in birthday
+//invece che salvare eta salvate compleanno
+//cambiare getAge per far calcolare gli anni (sugg: usate until delle date)
+//notate che il compareTo continua a funzionare
 public class Person implements Ageable,Comparable<Person>
 {
     public Person(String name, String surname, int age) {
